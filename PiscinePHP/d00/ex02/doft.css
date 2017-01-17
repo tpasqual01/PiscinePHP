@@ -1,0 +1,151 @@
+*{
+	margin : 0px;
+	padding : 0px;
+	}
+body{
+	background-color: #505050;
+	margin: 0px;
+   	padding: 5px;
+}
+	.haut_gal{
+		display: block;
+		vertical-align: top;
+		position: relative;
+		background-color: #909090;
+		width: 1430px;
+		height: 140px;
+		padding-top: 5px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	div.haut_img_banner img {
+		position: absolute;
+		left: 10px;
+   		width: 500px;
+   		height: auto;
+	}
+	div.haut_img_loop img {
+		position: absolute;
+		right: 40px;
+   		width: 230px;
+   		height: auto;
+   		bottom: -20px;
+	}
+	div.haut_img_reload img {
+		position: absolute;
+		right: 10px;
+   		width: 20px;
+   		height: auto;
+   		top: 10px;
+	}
+	div.haut_img_close img {
+		position: absolute;
+		right: 10px;
+   		width: 20px;
+   		height: auto;
+   		bottom: 10px;
+	}
+	.content_gal{
+		display: block;
+		width: 1430px;
+		padding-top: 5px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	.gauche_gal, .droite_gal{
+		z-index: 0;
+		display: inline-block;
+		vertical-align: top;
+		position: relative;
+		background-color: #909090;
+		width: 140px;
+		height: 425px;
+		padding-top: 5px;
+		padding-bottom: 0px;
+		margin: 7px;
+	}
+   	div.gauche_img img, div.droite_img img {
+		margin-top: 5px;
+		margin-bottom: 5px;
+   		margin-left: auto;
+   		margin-right: auto;
+   		width: 75px;
+   		height: auto;
+   	}
+   	div.droite_mur {
+		display: block;
+		background-image: url("resources/brick.jpg");
+		background-repeat: repeat;
+   		margin-left: auto;
+   		margin-right: auto;
+   		width: 123px;
+   		height: 70px;
+   	}
+   	.centre_gal {
+		z-index: 0;
+		display: inline-block;
+		position: relative;
+		vertical-align: top;
+		background-color: #909090;
+		width: 1025px;
+		height: 590px;
+		margin: 5px;
+	}
+	.centre_img img {
+   		padding: 12px;
+   		width: 1000px;
+   		height: auto;
+   	}
+	.shadow{
+		box-shadow: 5px 5px 5px 5px  #212121;
+	}
+	.radius{
+		border-radius: 10px;	
+	}
+	h2{
+		color: #333333;
+		margin: 0;
+		font-size: 2vw;
+	}
+	h1{
+		text-align: center;
+		font-size: 2.5vw;
+		color: white;
+	}
+	.gauche_img a:hover, a:focus
+	{
+		display: block;
+		margin-top: -3px;
+		margin-bottom: -3px;
+   		width: 75px;
+		border: 3px solid red;
+	}
+	.box {
+		z-index: 1;
+		position: relative;
+   		/*float: left;*/
+   		display: block;
+   		/*left: 0px;*/
+   		width: 520px;
+   		height: 155px;
+   		background-color: #88FF89;
+   		margin-top: -100px;
+	}
+	p.box-texte{
+		font-family: sans-serif;
+		font-size: 14px;
+		text-align: left;
+		letter-spacing: 1.5px;
+		padding: 10px;
+	}
+	p.box-texte span.big{
+		font-family: Georgia, Serif;
+		font-size: 26px;
+	}
+	p.box-texte span.italic{
+		font-style: italic;
+	}
+	p.box-texte span.ordi{
+		font-style: italic;
+		text-shadow: 5px 5px 3px #BA8045;
+	}

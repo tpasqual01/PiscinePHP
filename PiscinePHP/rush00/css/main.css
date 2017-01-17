@@ -1,0 +1,207 @@
+body {
+    font-family: Verdana, Geneva, sans-serif;
+    margin: 0 !important;
+}
+
+nav {
+    width: 100%;
+    height: 9%;
+    padding: 20px;
+    background-color: #EEE;
+    border-bottom: 1px solid grey;
+}
+
+#acctit {
+    display: inline;
+}
+
+.navright {
+    float: right;
+}
+
+.sectiontitle {
+    font-size: 120%;
+    text-decoration: underline;
+}
+
+.error {
+    width: 100%;
+    height: 4%;
+    padding: 3px;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+
+.navright : after {
+    clear: both;
+}
+
+.rlink {
+    margin-right: 30px;
+}
+
+.ltit {
+    margin-left: 70px;
+    text-decoration: none;
+}
+
+.title {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.main {
+    min-height: 70%;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.centered {
+    /*display: block;
+    margin-right: auto;
+    margin-left: auto;*/
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+    text-align: center;
+    color: black;
+    justify-content: center;
+    margin-bottom: 4%;
+}
+
+.catname {
+    font-size: 120%;
+}
+
+.pimg {
+    max-width: 400px;
+    max-height: 400px;
+}
+
+.cat {
+    /*display: inline-block;
+    */width: 45%;
+    align-self: center;
+    margin: auto;
+    /*display: flex;
+    flex-flow: column wrap;
+    align-content: center;*/
+}
+
+.thumb {
+    border: 1px solid grey;
+    padding: 2px;
+    border-radius: 6px;
+    max-width: 400px;
+    max-height: 400px;
+}
+
+.thumbdef {
+    padding: 2px;
+    width: 200px;
+    text-align: center;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
+    color: black;
+}
+
+.noul { text-decoration: none; }
+
+.linkright {
+    font-size: 140%;
+    float: left;
+    border-radius: 3px;
+    border: 1px solid grey;
+    background-color: #DDD;
+    top: 30px;
+    color: black;
+    padding: 3px;
+    left: 30px;;
+    text-decoration: none;
+    margin: 3%;
+}
+
+.amsg {
+    width: 100%;
+    background-color: green;
+    color: white;
+    text-align: center;
+    height: 3%;
+    padding: 8px;
+    font-size: 110%;
+}
+
+.linkright : after {
+    clear: both;
+}
+
+.delacc {
+    display: inline;
+    margin-right: 300px;
+}
+
+.mainadm {
+    margin: 7% !important;
+}
+
+.logcont, .regcont {
+    display: flex;
+    height: 600px;
+    max-height: 50%;
+}
+
+.logform, .regform {
+    margin: auto;
+    padding: 15px;
+    display: block;
+    border-top: 1px solid black;
+}
+
+.logpanel, .regpanel {
+    border: 1px solid grey;
+    margin: auto;
+    border-radius: 3px;
+}
+
+.loghead, .reghead {
+    border-bottom: 1 px solid grey;
+    background-color: #EEE;
+    text-align: center;
+}
+
+.logtitle, .regtitle {
+    padding: 15px;
+    margin: 0;
+    font-size: 160%;
+}
+
+.logid, .logpass, .regid, .regpass, .regmail {
+    margin-top: 7px;
+    margin-bottom: 0;
+}
+
+.loglink, .reglink {
+    margin-left: 20px;
+    margin-top:15px;
+}
+
+.logvalid, .regvalid {
+    padding: 5px;
+    margin: 5px;
+    margin-top: 15px;
+    font-size: 110%;
+}
